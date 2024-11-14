@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.top {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Container ayarları */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.column {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Aday adı ve radio button ayarları */
+.candidate {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.radio {
+  margin-top: 10px;
+}
+
+#buton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#buton:hover {
+  background-color: #0056b3;
+}
